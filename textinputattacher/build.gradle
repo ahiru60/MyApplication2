@@ -40,7 +40,7 @@ afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
-            register(MavenPublication) {
+            release(MavenPublication) {
                 // Applies the component for the release build variant.
                 from components.findByName("release")
 
