@@ -45,7 +45,7 @@ afterEvaluate {
                 from components.findByName("release")
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.nvision'
+                groupId = 'com.ahiru60.nvision'
                 artifactId = 'textinputattacher'
                 version = '1.0.5'
             }
